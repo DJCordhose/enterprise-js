@@ -8,7 +8,7 @@ header
 - if (tip.example)
   pre#example!=tip.example
 footer
-  p#author.split="Submitted by: "
-    a.special(href="http://twitter.com/#/" + tip.author)=tip.author 
-  p#permalink.split
+  p#author="Submitted by: "
+    a.special(href="http://twitter.com/" + tip.author)=tip.author 
+  p#permalink
     a(href="/" + index)="Permalink"
